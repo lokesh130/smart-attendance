@@ -17,9 +17,13 @@ Wav files in each input directory will be labeled as the basename of the directo
 Note that wildcard inputs should be *quoted*.
 
 Examples:
-    Train:
+   
+    
+     Train:
     ./speaker-recognition.py -t enroll -i "training_data\*" -m model.out
-
-    Predict:
+    
+        Predict:
     ./speaker-recognition.py -t predict -i test.wav -m model.out
+
+
 ```
